@@ -1,0 +1,104 @@
+@import "menu.css";
+.form-group{
+    padding: 20px;
+}
+
+.login-form {
+    background: #f3f3f3;
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+.container.center {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    margin:0;
+}
+
+.footer{
+    background-color: #424874;
+    height: 2rem;
+}
+
+input[type="text"]:focus {
+    border-color: red;
+    outline: none;
+}
+
+.main-container{
+    min-height: 100vh;
+    
+}
+
+.content-body{
+    flex-grow: 1;
+}
+
+.content {
+    background-color: #a6b1e1;
+    color: white;
+    flex-grow: 6;
+}
+
+.sidebar{
+    background-color: #dcd6f7;
+    flex-grow: 1;
+}
+
+table tbody tr:nth-child(odd):hover {
+    background-color: green;
+}
+
+ul.menu li:not(.active) a {
+    background-color: white;
+    color:black;
+}
+
+.social-icons {
+    text-align: center;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.social-icons i:hover{
+    animation-name: example1;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {
+        color:black;
+    }
+    to {
+        color: red;
+    }
+}
+
+@keyframes example1 {
+    25% {
+        color:red;
+    }
+    50% {
+        color:blue;
+    }
+    
+    75% {
+        color:white;
+    }
+}
+
+
