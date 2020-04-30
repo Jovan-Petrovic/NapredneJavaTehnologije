@@ -1,0 +1,40 @@
+ul.menu{
+    list-style: none;
+    background-color: #424874;
+    margin: 0;
+    padding: 0.2em;
+}
+ul.menu > li{
+    display: inline;
+
+}
+ul.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.2em;
+}
+ul.menu li a:hover{
+    background-color: #a6b1e1;
+}
+ul.menu li a:active{
+    background-color: white;
+    color: black;
+}
+ul.menu li{
+    color:red;
+    width: 100px;
+}
+ul.menu li a{
+    color: white;
+}
+
+@media all and (max-width: 350px){
+    ul.menu > li{
+        display: block;
+
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
